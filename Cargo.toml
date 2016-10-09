@@ -21,9 +21,13 @@ name = "piston_window"
 gfx = "0.12.0"
 gfx_core = "0.4.0"
 gfx_device_gl = "0.11.0"
-piston = "0.25.0"
+#piston = "0.25.0"
+#piston = {path = 'D:\projects\forks\piston'}
+piston = {git = 'https://github.com/Boscop/piston'}
 piston2d-gfx_graphics = "0.31.1"
 piston2d-graphics = "0.17.0"
 piston-texture = "0.5.0"
 shader_version = "0.2.0"
-pistoncore-glutin_window = "0.30.0"
+#pistoncore-glutin_window = "0.30.0"
+#pistoncore-glutin_window = {path = 'D:\projects\forks\glutin_window'}
+pistoncore-glutin_window = {git = 'https://github.com/Boscop/glutin_window'}
